@@ -1,4 +1,4 @@
 const urlParams = new URLSearchParams(window.location.search);
 const myParam = urlParams.get('hi');
 console.log(window.location.search);
-console.log (myParam);
+alert (myParam);
